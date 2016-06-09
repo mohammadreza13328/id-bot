@@ -4,8 +4,6 @@
 #info bot created by negative
 import telebot
 from telebot import types
-import requests
-import simplejson as json
 import sys
 import json
 reload(sys)
@@ -15,7 +13,7 @@ bot = telebot.TeleBot("205751413:AAHVcAOpkTQ5VFeMhM6ga8nvRTnWfbML3NA")
 
 @bot.message_handler(commands=['start', 'help'])
 def welcome(m):
-    bot.reply_to(m, "Hello I'm ID bot \n\n Send : \n  /id or /me or /info   \n or all pm text")
+    bot.reply_to(m, "Hello I'm ID bot \n\n Send : \n  /id or /me or /info   \n or all pm text \n\n get your id : \n /idme (just pv)")
 
 @bot.message_handler(commands=['id', 'ids', 'info', 'me'])
 def id(m):      # info menu
