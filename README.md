@@ -1,6 +1,7 @@
 # id-bot
 Telegram bot User info bot  Python 
 
+###star pls :hart:
 
 #install
 
@@ -12,3 +13,6 @@ python info.py or screen python info.py
 ```sh
 
 token line 11  ("TOKEN")   /  ("123456:abcd")
+
+copy right [Taylor team](https://github.com/taylor-team)
+
