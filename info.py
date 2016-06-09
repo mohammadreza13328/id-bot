@@ -12,7 +12,6 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 bot = telebot.TeleBot("205751413:AAHVcAOpkTQ5VFeMhM6ga8nvRTnWfbML3NA")
-API_PATH = 'http://api.vajehyab.com/v2/public'
 
 @bot.message_handler(commands=['start', 'help'])
 def welcome(m):
