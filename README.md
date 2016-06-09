@@ -1,7 +1,7 @@
 # id-bot
 Telegram bot User info bot  Python 
 
-###star pls :star:
+###star Please :star:
 
 #install
 
